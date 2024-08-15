@@ -8,7 +8,7 @@ export default function App() {
   const [publicKey, setPublicKey] = useState(false);
   const [copyPrivateKey, setCopyPrivateKey] = useState(false);
   const [copyPublicKey, setCopyPublicKey] = useState(false);
-  const serverUrl = "http://localhost:3000";
+  const serverUrl = "https://react-labs-qmwx.vercel.app/";
   async function handleClick() {
     try {
       const response = await fetch(`${serverUrl}/getMnemonics`);
